@@ -1,0 +1,10 @@
+[begin] (fluxbox)
+[exec] (Nautilus) {/usr/bin/nautilus --no-desktop}
+[exec] (Google Chrome) {/usr/bin/google-chrome}
+[exec] (Skype) {/usr/bin/skype}
+[exec] (Pidgin) {/usr/bin/pidgin}
+[exec] (Photoshop) {wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Adobe/Adobe\ Photoshop\ CS5/Photoshop.exe&}
+[exec] (Terminal) {/usr/bin/gnome-terminal.wrapper}
+[exec] (Firefox) {/usr/bin/firefox}
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+[end]
